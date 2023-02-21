@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="EasyWord_DSSR.Models.WordsModel">
+    <Position X="15.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAICgAAAAABAAACAAADAAAAAAQAAAAAAAAIAAAAIEAA=</HashCode>
+      <FileName>Models\WordsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasyWord_DSSR.MainWindow">
+    <Position X="13.25" Y="3" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAgAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyWord_DSSR.MainViewModel">
+    <Position X="18.25" Y="1" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>Ig0QBJCAAiApAAEDILBHgIQAAAQwA4MAFEC4qyIi5AA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EasyWord_DSSR.ViewModel.ViewModelBase">
+    <Position X="13.25" Y="1" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyWord_DSSR.View.LearnView">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\LearnView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EasyWord_DSSR.View.MainWindowView">
+    <Position X="13.25" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainWindowView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

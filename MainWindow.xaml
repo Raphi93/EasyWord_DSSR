@@ -1,0 +1,62 @@
+﻿<Window x:Class="EasyWord_DSSR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyWord_DSSR"
+        mc:Ignorable="d"
+        Title="EasyWord" Height="450" Width="800"
+        Icon="Images/EasyWordIcon.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style TargetType="{x:Type TextBlock}"
+                   x:Key="WrappingStyle">
+            </Style>
+            <Style TargetType="{x:Type TextBlock}"
+                   x:Key="TextAlignment">
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <Menu>
+                    <MenuItem Header="Datei">
+                        <MenuItem x:Name="ButtonExistingLearning"
+                                  Header="Import Existierende Lern Datei"
+                                  Command="{Binding CmdButtonExistingLearning}">
+                        </MenuItem>
+                        <MenuItem x:Name="ButtonClose"
+                                  Header="Schliessen"
+                                  Click="MenuItem_Click_1">
+                        </MenuItem>
+                        <Separator></Separator>
+                    </MenuItem>
+                    <MenuItem Header="Löschen">
+                        <MenuItem x:Name="ButtonDeleteWords"
+                                  Header="Wörter Löschen"
+                                  Command="{Binding CmdButtonDeleteWords}">
+                        </MenuItem>
+                        <MenuItem x:Name="ButtonDeleteBuckets"
+                                  Header="Eimer Löschen"
+                                  Command="{Binding CmdButtonDeleteBuckets}">
+                        </MenuItem>
+                        <Separator></Separator>
+                    </MenuItem>
+                    <MenuItem Header="Info">
+                        <MenuItem Header="Über"
+                                  Click="MenuItem_Click">
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+            </StackPanel>
+            <ContentControl
+                Grid.Row="1"
+                x:Name="Content" Content="{Binding Content}"></ContentControl>
+        </Grid>
+    </Grid>
+</Window>
